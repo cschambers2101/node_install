@@ -7,7 +7,7 @@ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 # set the required version
-VERSION=node_14.x
+VERSION=node_16.x
 
 # get distro version
 DISTRO="$(lsb_release -s -c)"
